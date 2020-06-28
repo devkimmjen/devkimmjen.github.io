@@ -1,0 +1,1073 @@
+<html lang="en" class="h-100">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="" preparing="" to="" be="" data="" analyst""="">
+
+    <title>기본기를 쌓는 초보 코딩 블로그</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- Animate CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
+
+</head>
+
+
+<body class="d-flex flex-column h-100">
+
+    <main class="flex-shrink-0 container mt-5">
+        <nav class="navbar navbar-expand-lg navbar-light">
+
+            <a class="navbar-brand" href="/">
+                <h5><b>기본기를 쌓는 초보 코딩 블로그</b></h5>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/2020-06-14"></a>
+
+                    <a class="nav-item nav-link " href="/projects/">Projects</a>
+
+                    <a class="nav-item nav-link active" href="/blog/">Blog</a>
+
+                    <a class="nav-item nav-link " href="/about/">About</a>
+
+
+
+                </div>
+            </div>
+
+        </nav>
+        <!-- Simple-Jekyll-Search https://github.com/christian-fei/Simple-Jekyll-Search -->
+
+        <div class="input-group mt-5 px-3">
+            <input id="search-input" type="text" class="form-control search-box" placeholder="Search posts..">
+            <div class="input-group-append">
+                <span class="input-group-text border border-primary bg-primary text-white">
+                    <i class="fas fa-search"></i>
+                </span>
+            </div>
+            <button class="btn btn-outline-primary ml-1" onclick="location.href = '/blog/tags';">
+                <i class="fas fa-tags"></i>
+            </button>
+        </div>
+        <ul class="px-3" id="results-container"></ul>
+
+        <script
+            src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js"></script>
+        <script>
+            var sjs = SimpleJekyllSearch({
+                searchInput: document.getElementById('search-input'),
+                resultsContainer: document.getElementById('results-container'),
+                searchResultTemplate: '<a href="{url}" class="list-group-item list-group-item-action">{title}</a>',
+                noResultsText: '<li class="list-group-item">No results found</li>',
+                json: '/search.json'
+            })
+        </script>
+        <div class="card-group mt-2">
+
+
+            <div class="col-lg-6 my-3 wow  fadeIn animated" data-wow-delay=".15s"
+                style="visibility: visible; animation-delay: 0.15s; animation-name: fadeIn;">
+                <a href="/blog/SQL_%EA%B3%BC%EC%A0%9C2" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">SQL 과제 수행2</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">SQL</span>
+
+                            <span class="badge badge-dark">Blog</span>
+
+                        </p>
+                        <p class="card-text">면접과제</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        26 June 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow  fadeIn animated" data-wow-delay=".15s"
+                style="visibility: visible; animation-delay: 0.15s; animation-name: fadeIn;">
+                <a href="/blog/SQL_%EA%B3%BC%EC%A0%9C" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">SQL 과제 수행</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">SQL</span>
+
+                            <span class="badge badge-dark">Blog</span>
+
+                        </p>
+                        <p class="card-text">면접과제</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        25 June 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow  fadeIn animated" data-wow-delay=".15s"
+                style="visibility: visible; animation-delay: 0.15s; animation-name: fadeIn;">
+                <a href="/blog/match_eda2" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">LOL match 분석2</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">Python</span>
+
+                            <span class="badge badge-dark">TIL</span>
+
+                        </p>
+                        <p class="card-text">RIOT API를 활용한 데이터 분석</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        21 June 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/Random_Forest" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">Random Forest 개념</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">Python</span>
+
+                            <span class="badge badge-dark">Machine Learning</span>
+
+                            <span class="badge badge-dark">Blog</span>
+
+                        </p>
+                        <p class="card-text">Random Forest 개념 간단 정리</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        20 June 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/SQL_Study" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">SQL INDEX와 정규화</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">SQL</span>
+
+                            <span class="badge badge-dark">Blog</span>
+
+                        </p>
+                        <p class="card-text">SQL 개념 끄적이기</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        19 June 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/match_eda" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">LOL match 분석</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">Python</span>
+
+                            <span class="badge badge-dark">TIL</span>
+
+                        </p>
+                        <p class="card-text">RIOT API를 활용한 데이터 분석</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        18 June 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/win_loss_prediction" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">LOL 승패예측</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">Python</span>
+
+                            <span class="badge badge-dark">TIL</span>
+
+                        </p>
+                        <p class="card-text">RIOT API를 활용한 데이터 분석</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        17 June 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/LOL_API" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">RIOT API 1</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">Python</span>
+
+                            <span class="badge badge-dark">TIL</span>
+
+                        </p>
+                        <p class="card-text">RIOT API를 활용한 데이터 분석</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        16 June 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/Blog2" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">Blog2</h3>
+                        <p class="card-text">
+
+                        </p>
+                        <p class="card-text">
+                        </p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        04 June 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/SQLD_test" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">SQLD 시험</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">SQL</span>
+
+                            <span class="badge badge-dark">Blog</span>
+
+                        </p>
+                        <p class="card-text">SQLD 시험 보고 왔습니다.</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        31 May 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/Stat" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">확률분포의 이해</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">R</span>
+
+                            <span class="badge badge-dark">Stat</span>
+
+                            <span class="badge badge-dark">TIL</span>
+
+                        </p>
+                        <p class="card-text">Studying Statistic</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        30 May 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/SQLD_3" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">SQLD 공부3</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">SQL</span>
+
+                            <span class="badge badge-dark">TIL</span>
+
+                        </p>
+                        <p class="card-text">Studying SQLD</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        29 May 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/Blog_Interview" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">면접 보고 왔습니다</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">Blog</span>
+
+                        </p>
+                        <p class="card-text">면접</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        28 May 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/SQLD_2" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">SQLD 공부2</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">SQL</span>
+
+                            <span class="badge badge-dark">TIL</span>
+
+                        </p>
+                        <p class="card-text">Studying SQLD</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        27 May 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/SQLD" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">SQLD 공부</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">SQL</span>
+
+                            <span class="badge badge-dark">TIL</span>
+
+                        </p>
+                        <p class="card-text">Studying SQLD</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        26 May 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/Blog_fix" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">블로그 리뉴얼</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">Blog</span>
+
+                        </p>
+                        <p class="card-text">Blog Renewal</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        25 May 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/Python_Problem2" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">종합문제2</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">Python</span>
+
+                            <span class="badge badge-dark">TIL</span>
+
+                        </p>
+                        <p class="card-text">Last Part of Regex</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        21 May 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/Python_Regex4" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">정규표현식4</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">Python</span>
+
+                            <span class="badge badge-dark">TIL</span>
+
+                        </p>
+                        <p class="card-text">Last Part of Regex</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        20 May 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/Python_Problem1" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">종합문제1</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">Python</span>
+
+                            <span class="badge badge-dark">TIL</span>
+
+                        </p>
+                        <p class="card-text">First Part of Problem</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        19 May 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/Python_Regex3" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">정규표현식3</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">Python</span>
+
+                            <span class="badge badge-dark">TIL</span>
+
+                        </p>
+                        <p class="card-text">Third Part of Regex</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        18 May 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/Python_Regex2" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">정규표현식2</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">Python</span>
+
+                            <span class="badge badge-dark">TIL</span>
+
+                        </p>
+                        <p class="card-text">Second Part of Regex</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        17 May 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/Blog_Surgery" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">블로그 잠시 휴식</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">Blog</span>
+
+                        </p>
+                        <p class="card-text">라섹으로 인한 휴식</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        08 May 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/EA" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">피파온라인4 데이터 추출</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">Python</span>
+
+                            <span class="badge badge-dark">TIL</span>
+
+                        </p>
+                        <p class="card-text">피파온라인4 open api</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        07 May 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/Python_Crawl" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">유튜브 크롤링</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">Python</span>
+
+                            <span class="badge badge-dark">TIL</span>
+
+                        </p>
+                        <p class="card-text">딩고프리스타일 크롤링</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        06 May 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/R" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">R을 활용한 간단한 데이터 전처리</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">R</span>
+
+                            <span class="badge badge-dark">TIL</span>
+
+                        </p>
+                        <p class="card-text">R을 활용한 데이터 전처리</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        03 May 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/Python" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">정규표현식1</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">Python</span>
+
+                            <span class="badge badge-dark">TIL</span>
+
+                        </p>
+                        <p class="card-text">First Part of Regex</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        02 May 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/Blog_May" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">1일 1 Commit</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">Blog</span>
+
+                        </p>
+                        <p class="card-text">First of May</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        01 May 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/MarkDown" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">간단한 마크다운 문법</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">Python</span>
+
+                            <span class="badge badge-dark">TIL</span>
+
+                            <span class="badge badge-dark">md</span>
+
+                        </p>
+                        <p class="card-text">마크다운 문법 알아보기</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        30 April 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/ANOVA" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">ANOVA</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">R</span>
+
+                            <span class="badge badge-dark">TIL</span>
+
+                        </p>
+                        <p class="card-text">R을 활용하여 ANOVA 알아보기</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        29 April 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/Python_Grid" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">Grid Search를 통한 Hyper Parameter Tuning</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">Python</span>
+
+                            <span class="badge badge-dark">TIL</span>
+
+                        </p>
+                        <p class="card-text">Python으로 Grid Search를 활용하여 Hyper Parameter Tuning</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        28 April 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/R" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">Open Api를 활용한 유기동물 데이터 추출</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">R</span>
+
+                            <span class="badge badge-dark">TIL</span>
+
+                        </p>
+                        <p class="card-text">R을 활용한 Open API를 사용하여 유기동물 데이터 추출</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        27 April 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/Python_Crawl" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">크롤링을 이용한 따릉이 데이터 수집</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">Python</span>
+
+                            <span class="badge badge-dark">TIL</span>
+
+                        </p>
+                        <p class="card-text">Python을 활용한 따릉이 데이터 크롤링</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        26 April 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/Python_pd_cut" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">pd.cut을 이용한 label 부여</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">Python</span>
+
+                            <span class="badge badge-dark">TIL</span>
+
+                        </p>
+                        <p class="card-text">pandas cut을 이용하여 데이터 분할 및 label 부여</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        25 April 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/Python_Visualization" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">Python 시각화</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">Python</span>
+
+                            <span class="badge badge-dark">TIL</span>
+
+                        </p>
+                        <p class="card-text">Python을 활용한 프로젝트 시각화</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        24 April 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/Python_Open_API" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">아파트 실거래가 Open_API</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">Python</span>
+
+                            <span class="badge badge-dark">TIL</span>
+
+                        </p>
+                        <p class="card-text">Python을 활용한 아파트 실거래가 Open API</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        23 April 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/Jupyter_notebook" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">Jupyter Notebook 단축키</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">Python</span>
+
+                            <span class="badge badge-dark">TIL</span>
+
+                        </p>
+                        <p class="card-text">Jupyter Notebook 단축키 설명</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        22 April 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/Python_dfply" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">Python dfply</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">Python</span>
+
+                            <span class="badge badge-dark">TIL</span>
+
+                        </p>
+                        <p class="card-text">R dply function using Python dfply</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        21 April 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/SQL" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">SQL 레벨업 8강: UNION을 사용한 쓸데없이 긴 표현</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">SQL</span>
+
+                            <span class="badge badge-dark">TIL</span>
+
+                        </p>
+                        <p class="card-text">SQL 레벨업 8강</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        20 April 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/Pandas4" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">10 minutes to pandas 4</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">Pyhton</span>
+
+                            <span class="badge badge-dark">TIL</span>
+
+                        </p>
+                        <p class="card-text">Last part of 10 minutes to pandas</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        19 April 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/SQL" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">SQL 레벨업 7강: SELECT 구문</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">SQL</span>
+
+                            <span class="badge badge-dark">TIL</span>
+
+                        </p>
+                        <p class="card-text">SQL 레벨업 7강</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        18 April 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/Pandas3" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">10 minutes to pandas 3</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">Python</span>
+
+                            <span class="badge badge-dark">TIL</span>
+
+                        </p>
+                        <p class="card-text">Third Part of 10 minutes to pandas</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        17 April 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/t_test" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">t-test</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">Python</span>
+
+                            <span class="badge badge-dark">TIL</span>
+
+                        </p>
+                        <p class="card-text">t-test using Python</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        16 April 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/Pandas2" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">10 minutes to pandas 2</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">Python</span>
+
+                            <span class="badge badge-dark">TIL</span>
+
+                        </p>
+                        <p class="card-text">Second part of 10 minutes to pandas</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        15 April 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/Python_churn" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">이탈률 예측(Churn_Prediction) EDA</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">Python</span>
+
+                            <span class="badge badge-dark">TIL</span>
+
+                        </p>
+                        <p class="card-text">Churn prediction EDA using Python</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        14 April 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/SQL" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">SQL 레벨업 6강: SELECT 구문</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">SQL</span>
+
+                            <span class="badge badge-dark">TIL</span>
+
+                        </p>
+                        <p class="card-text">SQL 레벨업 6강</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        13 April 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/Pandas" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">10 minutes to pandas 1</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">Pyhton</span>
+
+                            <span class="badge badge-dark">TIL</span>
+
+                        </p>
+                        <p class="card-text">10 minutes to pandas start</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        12 April 2020
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s"
+                style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                <a href="/blog/test" class="post card border border-">
+                    <div class="card-body text-dark">
+                        <h3 class="card-title">github.io 블로그 시작하기</h3>
+                        <p class="card-text">
+
+                            <span class="badge badge-dark">Blog</span>
+
+                        </p>
+                        <p class="card-text">블로그 시작하기</p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        11 April 2020
+                    </div>
+                </a>
+            </div>
+
+
+        </div>
+    </main>
+
+    <footer class="mt-auto py-3 text-center">
+
+        <small class="text-muted mb-2">
+            <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
+            by <strong>Je Ho Yeon</strong>
+        </small>
+
+        <div class="container-fluid justify-content-center"><a class="social mx-1" href="mailto:jyeon9465@gmail.com"
+                style="color: #6c757d" onmouseover="this.style.color='#db4437'" onmouseout="this.style.color='#6c757d'">
+                <i class="fas fa-envelope fa-1x"></i>
+            </a><a class="social mx-1" href="https://www.github.com/jyeon94" style="color: #6c757d"
+                onmouseover="this.style.color='#333333'" onmouseout="this.style.color='#6c757d'">
+                <i class="fab fa-github fa-1x"></i>
+            </a><a class="social mx-1" href="https://www.linkedin.com/in/je-ho-yeon-72770b132" style="color: #6c757d"
+                onmouseover="this.style.color='#007bb5'" onmouseout="this.style.color='#6c757d'">
+                <i class="fab fa-linkedin-in fa-1x"></i>
+            </a>
+
+        </div><small id="attribution">
+            theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>
+        </small>
+
+    </footer>
+    <!-- GitHub Buttons -->
+    <script async="" defer="" src="https://buttons.github.io/buttons.js"></script>
+
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper.js CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- wow.js CDN & Activation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+    <script> new WOW().init(); </script>
+
+    <!-- Initialize all tooltips -->
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+
+
+
+</body>
+
+</html>
